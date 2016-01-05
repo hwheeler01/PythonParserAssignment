@@ -1,11 +1,5 @@
 # PythonParserAssignment
----
-title: "Python Parser Assignment (5 pts)"
-author: "Heather E. Wheeler"
-date: 'DUE: Feb. 17 at 11:59PM via Sakai'
-output: html_document
-subtitle: COMP 383 Computational Biology
----
+
 For better or worse, new file formats are developed frequently in computational biology, often every time a new method or software is released (see <https://www.biostars.org/p/55351/>). Thus, as budding computational biologists, you will often be tasked with converting files from one format to another in order to try out a shiny new method on your data. If you're lucky, someone will have written and posted a script to do exactly what you want. Often, however, it is quicker/safer/easier to write your own script. For this assignment, you are given the "real life" task of coverting imputed genotype data into a format appropriate for a new gene-based association method called PrediXcan. Write a script in Python that does the following:
 
 **Input:** `*vcf.gz` file of imputed genotypes. VCF (variant call format) is a text file format (most likely stored in a compressed manner). It contains meta-information lines, a header line, and then data lines each containing information about a position in the genome.
